@@ -1,3 +1,7 @@
+---
+layout: base-layout.njk
+---
+
 ## My Politician
 ### Personal project to further my React and Redux skills.
 
