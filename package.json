@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-site-eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickHimmel/portfolio-site-eleventy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickHimmel/portfolio-site-eleventy/issues"
+  },
+  "homepage": "https://github.com/NickHimmel/portfolio-site-eleventy#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
