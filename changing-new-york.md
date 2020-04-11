@@ -1,7 +1,6 @@
 ---
 layout: base-layout.njk
-title: My Politician
-date: 2020-04-09
+title: Changing New York
 tags: ['post']
 ---
 
