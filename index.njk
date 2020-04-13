@@ -8,9 +8,7 @@ layout: base-layout.njk
 <a href='https://github.com/NickHimmel/' target='_blank'>GitHub</a> /
 <a href='https://www.linkedin.com/in/nick-himmel/' target='_blank'>LinkedIn</a>
 {% for post in collections.post %}
-  <article>
-    <h1>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h1>
-  </article>
+  <a href="{{ post.url | url }}">
+    {% excerpt post %}
+  </a>
 {% endfor %}
