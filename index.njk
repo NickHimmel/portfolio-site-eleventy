@@ -9,6 +9,7 @@ layout: base-layout.njk
 <a href='https://www.linkedin.com/in/nick-himmel/' target='_blank'>LinkedIn</a>
 {% for post in collections.post %}
   <a href="{{ post.url | url }}">
+    <img src={{ post.data.thumbnail | url }} />
     {% excerpt post %}
   </a>
 {% endfor %}

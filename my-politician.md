@@ -1,8 +1,9 @@
 ---
 layout: base-layout.njk
 title: My Politician
-date: 2020-04-09
+date: 2020-01-01
 tags: ['post']
+thumbnail: https://s3.us-east-2.amazonaws.com/nickhimmel.com/thumbnail_my_politician.png
 ---
 
 ## My Politician
