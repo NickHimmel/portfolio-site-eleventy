@@ -4,10 +4,10 @@ title: Changing New York
 tags: ['post']
 ---
 
-## My Politician
+## Changing New York
 ### Personal project to further my React and Redux skills.
 
-This app lets people click on a district on a dynamic map of the United States to find out who their local congressman is as well as who their state representatives are. It shows constituents which bills the lawmaker introduced, their vote history, and provides links to their social media pages. Built with the D3.js JavaScript library, as well as the ProPublica API and OpenSecrets API.
+This app uses my own photographs paired with Berenice Abbott’s historic photographs from the New York York Public Library Digital Collections API, along with Mapbox, to engage users in a conversation about New York’s changing waterfront. Users can click on locations on a map of New York’s waterfront to see historic photos paired with contemporary ones and read about the area’s development.
 
 TECHNOLOGY: React, Redux, D3, Sass
-Code on [GitHub](https://github.com/NickHimmel/my-politician-app) / [Visit Site](https://nickhimmel.github.io/my-politician-app/)
+Code on <a href="https://github.com/NickHimmel/changing-new-york-app" target="_blank">GitHub</a> / <a href="https://changing-new-york-app.herokuapp.com/" target="_blank">Visit Site</a> 
