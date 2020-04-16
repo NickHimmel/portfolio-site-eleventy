@@ -2,14 +2,18 @@
 layout: base-layout.njk
 ---
 
-<h1>Hi, I’m Nick.</h1>
-<p>I am a front-end developer who loves creating beautiful and usable web experiences. I’m committed to getting all the design details looking perfect, and I write quality code, too. Data-driven projects are my favorite. The technologies I enjoy most include Sass, React, and Redux. Get in touch at himmel.nick@gmail.com.</p>
-<a href='https://s3.us-east-2.amazonaws.com/nickhimmel.com/nick_himmel_resume.pdf' target='_blank'>Resume (PDF)</a> /
-<a href='https://github.com/NickHimmel/' target='_blank'>GitHub</a> /
-<a href='https://www.linkedin.com/in/nick-himmel/' target='_blank'>LinkedIn</a>
-{% for post in collections.post %}
-  <a href="{{ post.url | url }}">
-    <img src={{ post.data.thumbnail | url }} />
-    {% excerpt post %}
-  </a>
-{% endfor %}
+<header>
+  <h1>Hi, I’m Nick.</h1>
+  <p>I am a front-end developer who loves creating beautiful and usable web experiences. I’m committed to getting all the design details looking perfect, and I write quality code, too. Data-driven projects are my favorite. The technologies I enjoy most include Sass, React, and Redux. Get in touch at himmel.nick@gmail.com.</p>
+  <a href='https://s3.us-east-2.amazonaws.com/nickhimmel.com/nick_himmel_resume.pdf' target='_blank'>Resume (PDF)</a> /
+  <a href='https://github.com/NickHimmel/' target='_blank'>GitHub</a> /
+  <a href='https://www.linkedin.com/in/nick-himmel/' target='_blank'>LinkedIn</a>
+</header>
+<div>
+  {% for post in collections.post %}
+    <a href="{{ post.url | url }}">
+      <img src={{ post.data.thumbnail }} />
+      {{ post.templateContent | safe }}
+    </a>
+  {% endfor %}
+</div>
