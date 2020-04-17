@@ -1,5 +1,124 @@
+:root {
+  --dark-grey: #5f5f5f;
+  --light-grey: #d8d8d8;
+  --orange: #fc5613;
+  --sans-serif-font: neue-haas-unica,sans-serif;
+  --font-light: 200;
+  --font-regular: 300;
+  --font-medium: 500;
+  --font-bold: 600;
+}
+
 body {
   box-sizing: border-box;
-  margin: auto;
+  color: var(--dark-grey);
+  font-family: var(--sans-serif-font);
+  font-weight: var(--font-regular);
+  margin: 85px auto;
   max-width: 825px;
+}
+
+a {
+  color: var(--dark-grey);
+  font-weight: var(--font-bold);
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid var(--orange);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: var(--font-light);
+}
+
+h2 {
+  font-size: 1.266rem;
+  font-weight: var(--font-bold);
+  margin: 14px 0;
+}
+
+h3 {
+  font-size: .889rem;
+  font-weight: var(--font-medium);
+  margin: 0;
+}
+
+p {
+  font-weight: var(--font-regular);
+  line-height: 1.4;
+  margin: 14px 0;
+}
+
+strong {
+  font-size: .702em;
+  font-weight: var(--font-bold);
+}
+
+.card {
+  display: flex;
+  align-items: stretch;
+  margin: 40px 0;
+  height: 300px;
+}
+
+.card-link {
+  color: var(--dark-grey);
+  font-weight: var(--font-regular);
+  text-decoration: none;
+}
+
+.card-link:hover {
+  border-bottom: 0px;
+}
+
+.card-link:visited {
+  color: var(--dark-grey);
+  text-decoration: none;
+}
+
+.card-container {
+  background-color: var(--light-grey);
+  padding: 10px;
+}
+
+.card-image {
+  width: auto;
+  height: 100%;
+}
+
+.card-text {
+  font-size: .889rem;
+  margin: auto;
+  padding: 0 30px;
+}
+
+@media only screen and (min-width: 769px) {
+  @keyframes bounce {
+  	0%, 20%, 60%, 100% {
+  		-webkit-transform: translateY(0);
+  		transform: translateY(0);
+  	}
+
+  	40% {
+  		-webkit-transform: translateY(-2px);
+  		transform: translateY(-2px);
+  	}
+
+  	80% {
+  		-webkit-transform: translateY(-1px);
+  		transform: translateY(-1px);
+  	}
+  }
+
+  .card {
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+  }
+
+  .card:hover {
+    animation: bounce 1s;
+  }
 }

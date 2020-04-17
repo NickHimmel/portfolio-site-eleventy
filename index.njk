@@ -11,9 +11,15 @@ layout: base-layout.njk
 </header>
 <div>
   {% for post in collections.post %}
-    <a href="{{ post.url | url }}">
-      <img src={{ post.data.thumbnail }} />
-      {{ post.templateContent | safe }}
-    </a>
+    <div class="card">
+      <a href="{{ post.url | url }}" class="card-link card-container">
+        <img src={{ post.data.thumbnail }} class="card-image"/>
+      </a>
+      <div class="card-text">
+        <a href="{{ post.url | url }}" class="card-link">
+          {{ post.templateContent | safe }}
+        </a>
+      </div>
+    </div>
   {% endfor %}
 </div>

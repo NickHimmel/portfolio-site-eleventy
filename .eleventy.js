@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-
+  
   eleventyConfig.addShortcode('extractUrls', (title, posts) => {
     const current = posts.findIndex(post => post.data.title === title);
     const previous = posts[current===0?posts.length-1:current-1];
