@@ -2,21 +2,19 @@
 layout: base-layout.njk
 ---
 
-<nav>
-<a href="/">
-  <svg width="20" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M8 17.5v-6h4v6h5v-8h3l-10-9-10 9h3v8z" fill="#000" fillRule="evenodd"/></svg>
-</a>
-  <ul>
-    <li>
-      <a href='https://s3.us-east-2.amazonaws.com/nickhimmel.com/nick_himmel_resume.pdf' target='_blank'>Resume</a>
-    </li>
-    <li>
-      <a href='https://github.com/NickHimmel/' target='_blank'>GitHub</a>
-    </li>
-    <li>
-      <a href='mailto:himmel.nick@gmail.com'>Contact</a>
-    </li>
-  </ul>
+<nav class="nav">
+  <div class="nav-inner">
+      <div class="nav-left">
+        <a href="/">
+          <svg width="20" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M8 17.5v-6h4v6h5v-8h3l-10-9-10 9h3v8z" fill="#000" fillRule="evenodd"/></svg>
+        </a>
+      </div>
+      <div class="nav-right">
+        <a class="nav-link" href='https://s3.us-east-2.amazonaws.com/nickhimmel.com/nick_himmel_resume.pdf' target='_blank'>Resume</a>
+        <a class="nav-link" href='https://github.com/NickHimmel/' target='_blank'>GitHub</a>
+        <a class="nav-link" href='mailto:himmel.nick@gmail.com'>Contact</a>
+      </div>
+  </div>
 </nav>
 <div>
   {{ content | safe }}
@@ -26,11 +24,11 @@ layout: base-layout.njk
   </video>
 {% endif %}
 {% for image in images %}
-  <img src="{{ image.src }}" alt="{{ image.alt }}" >
+  <img src="{{ image.src }}" alt="{{ image.alt }}" class="post-image">
 {% endfor %}
 </div>
-<footer>
-  <ul>
+<footer class="footer">
+  <div class="footer-inner">
     {% extractUrls title, collections.post %}
-  </ul>
+  </div>
 </footer>
