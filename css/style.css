@@ -78,9 +78,8 @@ strong {
 
 .card {
   display: flex;
-  align-items: stretch;
   margin: 40px 0;
-  height: 300px;
+
 }
 
 .card-link {
@@ -102,12 +101,11 @@ strong {
 .card-container {
   background-color: var(--light-grey);
   padding: 10px;
-  width: 100%;
 }
 
 .card-image {
   width: auto;
-  height: 100%;
+  height: 300px;
 }
 
 .card-text {
