@@ -105,7 +105,7 @@ strong {
 
 .card-image {
   width: auto;
-  height: 300px;
+  max-height: 300px;
 }
 
 .card-text {
