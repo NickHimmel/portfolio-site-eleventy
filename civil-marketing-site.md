@@ -6,7 +6,7 @@ tags: ['post']
 thumbnail: https://s3.us-east-2.amazonaws.com/nickhimmel.com/thumbnail_civil_marketing.png
 images:
   - {src: https://s3.us-east-2.amazonaws.com/nickhimmel.com/Civil_Website_001.jpg, alt: Civil Marketing Site Redesign}
-  - {src: https://s3.us-east-2.amazonaws.com/nickhimmel.com/Civil_Website_002.jpg.jpg, alt: Civil Marketing Site Redesign}
+  - {src: https://s3.us-east-2.amazonaws.com/nickhimmel.com/Civil_Website_002.jpg, alt: Civil Marketing Site Redesign}
   - {src: https://s3.us-east-2.amazonaws.com/nickhimmel.com/Civil_Website_003.jpg, alt: Civil Marketing Site Redesign}
 ---
 
