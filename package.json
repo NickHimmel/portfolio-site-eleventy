@@ -20,5 +20,6 @@
   "homepage": "https://github.com/NickHimmel/portfolio-site-eleventy#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0"
-  }
+  },
+  "dependencies": {}
 }
