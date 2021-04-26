@@ -11,7 +11,7 @@ images:
 ---
 
 ## {{ title }}
-### Freelance Front End Developer, April 2018 – present.
+### Freelance Front End Developer, April 2018 – April 2020.
 
 I worked with a designer on two major redesigns of Civil’s marketing site, achieving pixel-perfect results. I contributed additional features to the marketing site on an as-needed basis.
 

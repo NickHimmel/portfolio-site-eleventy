@@ -19,7 +19,7 @@ images:
 ---
 
 ## {{ title }}
-### Freelance Front End Developer, April 2018 – present.
+### Freelance Front End Developer, April 2018 – April 2020.
 
 Civil is a blockchain startup focusing on journalism. They have a custom WordPress theme for small independent newsrooms. I adapted Civil’s WordPress theme to the individual needs of 11 different newsrooms using CSS. I worked with each newsroom to learn their needs and brand and make their sites look exactly the way they wanted.
 
